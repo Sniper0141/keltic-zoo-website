@@ -1,6 +1,6 @@
 export default function FooterComponent(){
     return(
-        <footer className="h-64	bg-slate-400 text-center flex flex-col">
+        <footer className="h-64 text-center flex flex-col" style={{backgroundColor: '#31572c'}}>
             <br/>
             <br/>
             <p>

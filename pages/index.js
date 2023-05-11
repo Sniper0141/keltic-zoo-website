@@ -14,7 +14,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="min-h-screen">
-      
+        <div className='h-40 text-center flex flex-col justify-center' style={{backgroundColor: '#ecf39e'}}>
+          <p className='text-5xl'>Welcome to your <strong>DREAM</strong></p>
+        </div>
+        <div className='h-screen bg-no-repeat bg-cover' style={{backgroundImage: `url("website_main_image.jpg")`}}></div>
       </main>
     </>
   )
