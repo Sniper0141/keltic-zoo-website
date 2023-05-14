@@ -17,8 +17,28 @@ export default function Home() {
         <div className='h-40 text-center flex flex-col justify-center' style={{backgroundColor: '#ecf39e'}}>
           <p className='text-5xl'>Welcome to your <strong>DREAM ZOO</strong></p>
         </div>
-        <div className='h-screen bg-repeat bg-contain bg-black' style={{backgroundImage: `url("keltic_pattern.svg")`}}>
-          
+        <div className='min-h-screen p-20 bg-repeat bg-contain bg-black' style={{backgroundImage: `url("keltic_pattern.svg")`}}>
+          <div className='h-fit p-10 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
+            <h2 className='mb-10 text-center text-5xl text-black'><strong>Animal of the year</strong></h2>
+            <div className='flex'>
+              <div className='rounded-3xl w-fit border-4 border-black overflow-hidden'>
+                <Image src={'/animals/delete_me.jpg'} width={'720'} height={'1082'}></Image>
+              </div>
+              <div className='ml-8'>
+                <h3 className='text-5xl mb-8'>Lorem ipsum</h3>
+                <p className=''>
+                  Lorem ipsum dolor sit amet, <br/>
+                  consetetur sadipscing elitr, <br/>
+                  sed diam nonumy eirmod tempor invidunt <br/> 
+                  ut labore et dolore magna aliquyam erat, <br/>
+                  sed diam voluptua. <br/>
+                  At vero eos et accusam et justo duo dolores et ea rebum. <br/>
+                  Stet clita kasd gubergren, <br/>
+                  no sea takimata sanctus est Lorem ipsum dolor sit amet. <br/>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </>
