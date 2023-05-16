@@ -14,22 +14,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="min-h-screen">
-        <div className='h-28 text-center flex flex-col justify-center' style={{backgroundImage: 'linear-gradient(#90a955, #ecf39e)'}}>
+        <div className='h-16' style={{backgroundImage: 'linear-gradient(#90a955, #ecf39e)'}}/>
+        <div className='h-24 text-center flex flex-col justify-center' style={{backgroundColor: '#ecf39e'}}>
           <p className='text-5xl'>Welcome to your <strong>DREAM ZOO</strong></p>
         </div>
         <div className='min-h-screen p-20 bg-repeat bg-contain bg-black' style={{backgroundImage: `url("keltic_pattern.svg")`}}>
           <div className='h-fit p-10 mb-14 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
             <h2 className='mb-10 text-5xl text-center'><strong>See our animals</strong></h2>
             <div className='flex justify-around'>
-              <div>
+              <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg hover:cursor-pointer'>
                 <div className='rounded-3xl w-fit border-4 border-black overflow-hidden'>
-                  <Image src={'/animals/delete_me.jpg'} width={'360'} height={'541'}></Image>
+                  <Image src={'/animals/delete_me.jpg'} width={'500'} height={'850'}></Image>
                 </div>
                 <h3 className='text-4xl text-center'>Monsters</h3>
               </div>
-              <div>
+              <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg hover:cursor-pointer'>
                 <div className='rounded-3xl w-fit border-4 border-black overflow-hidden'>
-                  <Image src={'/animals/delete_me.jpg'} width={'360'} height={'541'}></Image>
+                  <Image src={'/animals/delete_me.jpg'} width={'500'} height={'850'}></Image>
                 </div>
                 <h3 className='text-4xl text-center'>Friendly Creatures</h3>
               </div>
@@ -39,7 +40,9 @@ export default function Home() {
             <h2 className='mb-10 text-center text-5xl text-black'><strong>Animal of the year</strong></h2>
             <div className='flex'>
               <div className='rounded-3xl w-fit border-4 border-black overflow-hidden'>
-                <Image src={'/animals/delete_me.jpg'} width={'720'} height={'1082'}></Image>
+                <div className='w-fit transition-transform ease-out duration-700 hover:scale-105 hover:z-10'>
+                  <Image src={'/animals/delete_me.jpg'} width={'720'} height={'1082'}></Image>
+                </div>
               </div>
               <div className='ml-8' style={{color: '#132a13'}}>
                 <h3 className='text-5xl mb-8'>Lorem ipsum</h3>
