@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
       <main className="min-h-screen">
         <div className='h-16' style={{backgroundImage: 'linear-gradient(#90a955, #ecf39e)'}}/>
-        <div className='h-24 text-center flex flex-col justify-center' style={{backgroundColor: '#ecf39e'}}>
-          <p className='text-5xl'>Welcome to your <strong>DREAM ZOO</strong></p>
+        <div className='h-20 text-center flex flex-col justify-center' style={{backgroundColor: '#ecf39e'}}>
+          <p className='text-3xl'>Welcome to your <strong>DREAM ZOO</strong></p>
         </div>
         <div className='min-h-screen p-20 bg-repeat bg-contain bg-black' style={{backgroundImage: `url("keltic_pattern.svg")`}}>
           <div className='h-fit p-10 mb-14 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
