@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Home - Keltic Zoo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <main className="min-h-screen">
         <div className='h-16' style={{backgroundImage: 'linear-gradient(#90a955, #ecf39e)'}}/>
