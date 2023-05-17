@@ -6,7 +6,7 @@ export default function HeaderComponent(){
             <div className="flex fixed w-screen" style={{backgroundColor: '#90a955'}}>
                 <div className="w-1/2">
                     <Link href="/" className="flex w-fit ml-10 md:ml-20 ">
-                        <img src="./Keltic_Zoo_Logo.svg" alt='keltic zoo logo' className='h-24'></img>
+                        <img src="Keltic_Zoo_Logo.svg" alt='keltic zoo logo' className='h-24'></img>
                         <p className="text-3xl px-6 mt-auto mb-auto font-serif">Keltic Zoo</p>
                     </Link>
                 </div>
