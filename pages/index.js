@@ -6,12 +6,12 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  return (
+  return ( 
     <>
       <Head>
         <title>Home - Keltic Zoo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <main className="min-h-screen">
         <div className='h-16' style={{backgroundImage: 'linear-gradient(#90a955, #ecf39e)'}}/>
@@ -24,13 +24,13 @@ export default function Home() {
             <div className='flex justify-around'>
               <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg hover:cursor-pointer'>
                 <div className='rounded-3xl w-fit border-4 border-black overflow-hidden'>
-                  <Image src={'/animals/delete_me.jpg'} width={'500'} height={'850'}></Image>
+                  <img src='/animals/delete_me.jpg'/>
                 </div>
                 <h3 className='text-4xl text-center'>Monsters</h3>
               </div>
               <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg hover:cursor-pointer'>
                 <div className='rounded-3xl w-fit border-4 border-black overflow-hidden'>
-                  <Image src={'/animals/delete_me.jpg'} width={'500'} height={'850'}></Image>
+                  <img src='/animals/delete_me.jpg'/>
                 </div>
                 <h3 className='text-4xl text-center'>Friendly Creatures</h3>
               </div>
@@ -41,7 +41,7 @@ export default function Home() {
             <div className='flex'>
               <div className='rounded-3xl w-fit border-4 border-black overflow-hidden'>
                 <div className='w-fit transition-transform ease-out duration-700 hover:scale-105 hover:z-10'>
-                  <Image src={'/animals/delete_me.jpg'} width={'720'} height={'1082'}></Image>
+                  <img src='/animals/delete_me.jpg' width={'720'} height={'1082'}/>
                 </div>
               </div>
               <div className='ml-8' style={{color: '#132a13'}}>
