@@ -17,8 +17,8 @@ export default function HeaderComponent(){
                             <Link href="/" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Home</Link>
                             <Link href="/categories/monsters" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Monsters</Link>
                             <Link href="/categories/friends" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Friends</Link>
-                            <Link href="/" className="w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Privacy</Link>
-                            <Link href="/" className="w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">About</Link>
+                            <Link href="/privacy" className="w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Privacy</Link>
+                            <Link href="/about" className="w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">About</Link>
                         </nav>
                     </div>
                 </div>
