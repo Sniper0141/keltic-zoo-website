@@ -25,26 +25,30 @@ export default function Home() {
           <div className='h-fit p-10 mb-14 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
             <h2 className='mb-10 text-5xl text-center'><strong>See our animals</strong></h2>
             <div className='flex justify-around'>
-              <div className='w-fit h-fit p-10 rounded-3xl border-4 hover:shadow-black/40 shadow-lg' style={{borderColor: '#132a13'}}>
-                <div className='rounded-3xl w-fit border-4 border-black overflow-hidden' style={{borderColor: '#31572c'}}>
-                  <img src={monki.src}/>
+              <Link href="/categories/monsters">
+                <div className='w-fit h-fit p-10 rounded-3xl border-4 hover:shadow-black/40 shadow-lg' style={{borderColor: '#132a13'}}>
+                  <div className='rounded-3xl w-fit border-4 border-black overflow-hidden' style={{borderColor: '#31572c'}}>
+                    <img src={monki.src}/>
+                  </div>
+                  <h3 className='text-4xl text-center'>Monsters</h3>
                 </div>
-                <h3 className='text-4xl text-center'>Monsters</h3>
-              </div>
-              <Link href=""></Link>
-              <div className='w-fit h-fit p-10 rounded-3xl border-4 hover:shadow-black/40 shadow-lg ' style={{borderColor: '#132a13'}}>
-                <div className='rounded-3xl w-fit border-4 border-black overflow-hidden' style={{borderColor: '#31572c'}}>
-                  <img src={monki.src}/>
+              </Link>
+              <div className='w-5 h-5'/>
+              <Link href="/categories/friends">
+                <div className='w-fit h-fit p-10 rounded-3xl border-4 hover:shadow-black/40 shadow-lg ' style={{borderColor: '#132a13'}}>
+                  <div className='rounded-3xl w-fit border-4 border-black overflow-hidden' style={{borderColor: '#31572c'}}>
+                    <img src={monki.src}/>
+                  </div>
+                  <h3 className='text-4xl text-center'>Friendly Creatures</h3>
                 </div>
-                <h3 className='text-4xl text-center'>Friendly Creatures</h3>
-              </div>
+              </Link>
             </div>
           </div>
           <div className='h-fit p-10 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
             <h2 className='mb-10 text-center text-5xl text-black'><strong>Animal of the year</strong></h2>
             <div className='flex'>
-              <div className='rounded-3xl w-fit border-4 border-black overflow-hidden'>
-                <div className='w-fit transition-transform ease-out duration-700 hover:scale-105 hover:z-10'>
+              <div className='rounded-3xl w-fit border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
+                <div className='w-fit transition-transform ease-out duration-700 hover:scale-105'>
                   <img src={monki.src} width={'720'} height={'1082'}/>
                 </div>
               </div>
