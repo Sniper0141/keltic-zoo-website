@@ -25,21 +25,21 @@ export default function Home() {
           <div className='h-fit p-10 mb-14 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
             <h2 className='mb-10 text-5xl text-center'><strong>See our animals</strong></h2>
             <div className='flex justify-around'>
-              <Link href="/categories/monsters">
-                <div className='w-fit h-fit p-10 rounded-3xl border-4 hover:shadow-black/40 shadow-lg' style={{borderColor: '#132a13'}}>
-                  <div className='rounded-3xl w-fit border-4 border-black overflow-hidden' style={{borderColor: '#31572c'}}>
+              <Link href="/categories/Monsters">
+                <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg'>
+                  <div className='rounded-3xl w-fit border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
                     <img src={monki.src}/>
                   </div>
-                  <h3 className='text-4xl text-center'>Monsters</h3>
+                  <h3 className='m-4 text-4xl text-center'><strong>Monsters</strong></h3>
                 </div>
               </Link>
               <div className='w-5 h-5'/>
-              <Link href="/categories/friends">
-                <div className='w-fit h-fit p-10 rounded-3xl border-4 hover:shadow-black/40 shadow-lg ' style={{borderColor: '#132a13'}}>
-                  <div className='rounded-3xl w-fit border-4 border-black overflow-hidden' style={{borderColor: '#31572c'}}>
+              <Link href="/categories/Friends">
+                <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg '>
+                  <div className='rounded-3xl w-fit border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
                     <img src={monki.src}/>
                   </div>
-                  <h3 className='text-4xl text-center'>Friendly Creatures</h3>
+                  <h3 className='m-4 text-4xl text-center'><strong>Friendly Creatures</strong></h3>
                 </div>
               </Link>
             </div>

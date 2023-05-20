@@ -15,10 +15,10 @@ export default function HeaderComponent(){
                     <div className="w-1/2">
                         <nav className="flex flex-col md:flex-row gap-10 mt-8 md:justify-end md:mr-8">
                             <Link href="/" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Home</Link>
-                            <Link href="/categories/monsters" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Monsters</Link>
-                            <Link href="/categories/friends" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Friends</Link>
-                            <Link href="/privacy" className="w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Privacy</Link>
+                            <Link href="/categories/Monsters" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Monsters</Link>
+                            <Link href="/categories/Friends" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Friends</Link>
                             <Link href="/about" className="w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">About</Link>
+                            <Link href="/privacy" className="w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Privacy</Link>
                         </nav>
                     </div>
                 </div>

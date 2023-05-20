@@ -1,5 +1,7 @@
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
+import Icon from '@/public/images/favicon.ico'
 import monki from '@/public/images/animals/delete_me.jpg'
 
 export default function Creature(){
@@ -15,6 +17,10 @@ export default function Creature(){
     
     return(
         <>
+            <Head>
+                <title>{creature} - Keltic Zoo</title>
+                <link rel="icon" href={Icon.src}/>
+            </Head>
             <main>
                 <div className='bg-cover bg-black px-80 py-20' style={{backgroundImage: 'url(../images/celtic_pattern_animal_page.png)'}}>
                     <div className='p-5 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
