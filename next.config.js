@@ -3,9 +3,7 @@
 const isProd = process.env.NEXT_PUBLIC_BASE_PATH;
 
 const nextConfig = {
-  reactStrictMode: true,
-  basePath: isProd,
-  assetPrefix: isProd
+  reactStrictMode: true
 }
 
 module.exports = nextConfig
