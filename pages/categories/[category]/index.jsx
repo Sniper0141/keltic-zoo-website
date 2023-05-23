@@ -13,10 +13,31 @@ import fairy from '@/public/images/animals/friends/fairy.jpg'
 import leprechaun from '@/public/images/animals/friends/leprechaun.jpg'
 import puca from '@/public/images/animals/friends/puca.png'
 
-export default function Category(){
+export const getStaticPaths = async () => {
+    
+    return{
+        paths: [
+            {
+                params: {category: "Monsters"}
+            },
+            {
+                params: {category: "Friends"}
+            }
+        ],
+        fallback: false
+    }
+}
 
-    const router = useRouter()
-    const { category } = router.query
+export const getStaticProps = async (context) => {
+    const category = context.params.category 
+    return{
+        props: {
+            category
+        }
+    }
+}
+
+export default function Category({category}){
 
     if(category == "Monsters"){
         return (
