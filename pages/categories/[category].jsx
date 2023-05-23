@@ -5,6 +5,14 @@ import Head from 'next/head'
 import Icon from '@/public/images/favicon.ico'
 import monki from '@/public/images/animals/delete_me.jpg'
 
+import abhartach from '@/public/images/animals/monsters/abhartach.png'
+import oillipheist from '@/public/images/animals/monsters/oillipheist.jpg'
+import donn_cuailnge from '@/public/images/animals/monsters/donn_cuailnge.png'
+
+import fairy from '@/public/images/animals/friends/fairy.jpg'
+import leprechaun from '@/public/images/animals/friends/leprechaun.jpg'
+import puca from '@/public/images/animals/friends/puca.png'
+
 export default function Category(){
 
     const router = useRouter()
