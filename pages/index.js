@@ -1,9 +1,13 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
+import AnimalPreviewComponent from '@/components/animalpreviewcomponent'
 
 import Icon from '@/public/images/favicon.ico'
 import monki from '@/public/images/animals/delete_me.jpg'
+
+import leprechaun from '@/public/images/animals/friends/leprechaun.jpg'
+import oillipheist from '@/public/images/animals/monsters/oillipheist.jpg'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,7 +30,7 @@ export default function Home() {
               <Link href="/categories/Monsters">
                 <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg'>
                   <div className='rounded-3xl w-fit border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
-                    <img src={monki.src}/>
+                    <img src={oillipheist.src}/>
                   </div>
                   <h3 className='m-4 text-4xl text-center'><strong>Monsters</strong></h3>
                 </div>
@@ -35,7 +39,7 @@ export default function Home() {
               <Link href="/categories/Friends">
                 <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg '>
                   <div className='rounded-3xl w-fit border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
-                    <img src={monki.src}/>
+                    <img src={leprechaun.src}/>
                   </div>
                   <h3 className='m-4 text-4xl text-center'><strong>Friendly Creatures</strong></h3>
                 </div>

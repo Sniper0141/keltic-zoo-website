@@ -17,25 +17,45 @@ export default function Privacy(){
                     <br/>
                     <div className="">
                         <p className=''>
-                            Lorem ipsum dolor sit amet, 
-                            consetetur sadipscing elitr, 
-                            sed diam nonumy eirmod tempor invidunt  
-                            ut labore et dolore magna aliquyam erat, 
-                            sed diam voluptua. <br/>
-                            <br/>
-                            At vero eos et accusam et justo duo dolores et ea rebum. 
-                            Stet clita kasd gubergren, 
-                            no sea takimata sanctus est Lorem ipsum dolor sit amet. <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, 
-                            consetetur sadipscing elitr, 
-                            sed diam nonumy eirmod tempor invidunt  
-                            ut labore et dolore magna aliquyam erat, 
-                            sed diam voluptua. <br/>
-                            <br/>
-                            At vero eos et accusam et justo duo dolores et ea rebum. 
-                            Stet clita kasd gubergren, 
-                            no sea takimata sanctus est Lorem ipsum dolor sit amet. <br/>
+                            <b>Verantwortlich für den Inhalt dieser Website: </b><br/>
+                            Said Simokovic <br/>
+                            Neubrunnenstrasse 33 <br/>
+                            8302 Kloten <br/>
+                            Schweiz 
+                        </p>
+                        <br/>
+                        <p>
+                            <b>Kontakt: </b><br/>
+                            Telefon: +41 76 343 03 07 <br/>
+                            E-Mail: said.simokovic@icloud.com 
+                        </p>
+                        <br/>
+                        <p>
+                            <b>Hosting-Provider: </b><br/>
+                            GitHub <br/>
+                            88 Colin P Kelly Jr St <br/>
+                            San Francisco, CA 94107 <br/>
+                            USA 
+                        </p>
+                        <br/>
+                        <p>
+                            <b>Haftungshinweis: </b><br/>
+                            Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. <br/>
+                            Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+                        </p>
+                        <br/>
+                        <p>
+                            <b>Urheberrecht: </b><br/>
+                            Die durch den Betreiber dieser Website erstellten Inhalte und Werke auf diesen Seiten unterliegen dem Schweizer Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des Betreibers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+                        </p>
+                        <br/>
+                        <p>
+                            <b>Umsatzsteuer-Identifikationsnummer:</b> <br/>
+                            Gemäß § 19 UStG wird keine Umsatzsteuer erhoben.
+                        </p>
+                        <br/>
+                        <p>
+                            Ich möchte darauf hin weisen, dass die unerlaubte Verwendung von Teilen des Impressums oder des Inhalts dieser Website zu rechtlichen Konsequenzen führen kann.
                         </p>
                     </div>
                 </div>
