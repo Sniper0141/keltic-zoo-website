@@ -73,7 +73,7 @@ export default function Creature({creature}){
         imgSrc = fairy.src;
     }
     if(creature == 'Leprechaun'){
-        description = "A leprechaun is a small, mischievous man-like creature. They look like old men wearing green clothing and hats. Leprechauns are known for their association with rainbows and pots of gold, which they hide and guard. They are skilled craftsmen and enjoy playing pranks on humans. Capturing a leprechaun is believed to bring wealth and good fortune, as they grant three wishes in exchange for their freedom. However, leprechauns possess supernatural powers and are elusive beings. Leprechauns are deeply rooted in Irish culture and are popular symbols associated with St. Patrick's Day. They have become iconic figures in books, movies, and other forms of media, representing Irish folklore and the enchantment of hidden treasures."
+        description = "A leprechaun is a small, mischievous man-like creature. They look like old men wearing green clothing and hats. Leprechauns are known for their association with rainbows and pots of gold, which they hide and guard. They are skilled craftsmen and enjoy playing pranks on humans. Capturing a leprechaun is believed to bring wealth and good fortune, as they grant three wishes in exchange for their freedom. However, leprechauns possess supernatural powers and are elusive beings. Leprechauns are deeply rooted in Irish culture and are popular symbols associated with St. Patrick&apos;s Day. They have become iconic figures in books, movies, and other forms of media, representing Irish folklore and the enchantment of hidden treasures."
         imgSrc = leprechaun.src;
     }
     if(creature == 'Puca'){
@@ -81,7 +81,7 @@ export default function Creature({creature}){
         imgSrc = puca.src;
     }
     if(creature == 'Merrow'){
-        description = "A Merrow is a creature similar to humans, often referred to as a sea fairy or mermaid. Merrows have the appearance of a beautiful human with the lower body of a fish. They are known for their enchanting singing voices and their connection to the sea. Merrows possess a magical red cap, known as a cohuleen druith, which grants them the ability to live and breathe underwater. They are gentle and shy creatures, sometimes spotted sitting on rocks or combing their long hair with a golden comb. Merrows have a love for music and can be heard singing melodious songs while swimming in the ocean. Capturing a Merrow's cap would render them powerless and compel them to live on land, but doing so is both difficult and dangerous."
+        description = "A Merrow is a creature similar to humans, often referred to as a sea fairy or mermaid. Merrows have the appearance of a beautiful human with the lower body of a fish. They are known for their enchanting singing voices and their connection to the sea. Merrows possess a magical red cap, known as a cohuleen druith, which grants them the ability to live and breathe underwater. They are gentle and shy creatures, sometimes spotted sitting on rocks or combing their long hair with a golden comb. Merrows have a love for music and can be heard singing melodious songs while swimming in the ocean. Capturing a Merrow&apos;s cap would render them powerless and compel them to live on land, but doing so is both difficult and dangerous."
         imgSrc = merrow.src;
     }
     if(creature == 'Glas_Gaibhnenn'){
@@ -94,13 +94,15 @@ export default function Creature({creature}){
         imgSrc = abhartach.src;
     }
     if(creature == 'Donn_Cuailnge'){
-        description = "With its massive size, powerful physique, and gleaming brown coat, the Donn Cuailnge commands respect and instills fear in those who encounter it. Its strength and indomitable spirit make it a symbol of prowess and virility. The Donn Cuailnge's significance lies in an ancient epic tale where it sparks a war between kingdoms. Its value is such that armies clash in fierce battles to claim possession of this extraordinary creature. And no, it is not for sale."
+        description = "With its massive size, powerful physique, and gleaming brown coat, the Donn Cuailnge commands respect and instills fear in those who encounter it. Its strength and indomitable spirit make it a symbol of prowess and virility. The Donn Cuailnge&apos;s significance lies in an ancient epic tale where it sparks a war between kingdoms. Its value is such that armies clash in fierce battles to claim possession of this extraordinary creature. And no, it is not for sale."
         imgSrc = donn_cuailnge.src;
     }
     if(creature == 'Oillipheist'){
-        description = "The Oillipheist is a colossal serpent-like creature. The Oillipheist would normally dwell in the depths of Ireland's lakes, rivers, and seas, emerging from the water with an imposing and formidable presence. Legends describe its immense size, with a serpentine body covered in iridescent scales that shimmer in hues of emerald and sapphire. Its eyes, blazing with an otherworldly fire, are said to possess a mesmerizing and hypnotic power. It possesses great wisdom and the ability to control the elements, unleashing storms and tempests with a flick of its mighty tail."
+        description = "The Oillipheist is a colossal serpent-like creature. The Oillipheist would normally dwell in the depths of Ireland&apos;s lakes, rivers, and seas, emerging from the water with an imposing and formidable presence. Legends describe its immense size, with a serpentine body covered in iridescent scales that shimmer in hues of emerald and sapphire. Its eyes, blazing with an otherworldly fire, are said to possess a mesmerizing and hypnotic power. It possesses great wisdom and the ability to control the elements, unleashing storms and tempests with a flick of its mighty tail."
         imgSrc = oillipheist.src;
     }
+
+    description = description.replace("&apos;", "'");
     
     return(
         <>
