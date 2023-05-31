@@ -58,6 +58,8 @@ export const getStaticProps = async (context) => {
 
 export default function Creature({creature}){
 
+    const displayName = creature.replace('_', ' ');
+
     let description;
     let imgSrc;
 
@@ -103,13 +105,13 @@ export default function Creature({creature}){
     return(
         <>
             <Head>
-                <title>{creature} - Keltic Zoo</title>
+                <title>{displayName} - Keltic Zoo</title>
                 <link rel="icon" href={Icon.src}/>
             </Head>
             <main>
                 <div className='bg-cover bg-black px-80 py-20' style={{backgroundImage: 'url(../images/celtic_pattern_animal_page.png)'}}>
                     <div className='p-5 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
-                        <h1 className='w-fit p-5 mx-auto rounded-2xl border-black border-4 text-center text-6xl font-serif' style={{backgroundColor: '#ecf39e'}}>{creature}</h1>
+                        <h1 className='w-fit p-5 mx-auto rounded-2xl border-black border-4 text-center text-6xl font-serif' style={{backgroundColor: '#ecf39e'}}>{displayName}</h1>
                     </div>
                     <div className='h-5 w-5'/>
                     <div className='p-8 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>

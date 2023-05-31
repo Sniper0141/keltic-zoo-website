@@ -52,7 +52,7 @@ export default function Category({category}){
                     <div className='select-none text-transparent h-0 w-0'/>
                     <h2 className='w-fit m-20 p-5 border-4 border-black rounded-2xl text-6xl font-serif' style={{backgroundColor: '#ecf39e'}}>Monsters</h2>
                     <AnimalPreviewComponent name="Fairy" imgUrl={fairy.src}/>
-                    <AnimalPreviewComponent name="Glas Gaibhnenn" imgUrl={glas_gaibhnenn.src}/>
+                    <AnimalPreviewComponent name="Glas_Gaibhnenn" imgUrl={glas_gaibhnenn.src}/>
                     <AnimalPreviewComponent name="Leprechaun" imgUrl={leprechaun.src}/>
                     <AnimalPreviewComponent name="Puca" imgUrl={puca.src}/>
                     <AnimalPreviewComponent name="Merrow" imgUrl={merrow.src}/>
@@ -71,7 +71,7 @@ export default function Category({category}){
                     <div className='select-none text-transparent h-0 w-0'/>
                     <h2 className='w-fit m-20 p-5 border-4 border-black rounded-2xl text-6xl font-serif' style={{backgroundColor: '#ecf39e'}}>Friendly Creatures</h2>
                     <AnimalPreviewComponent name="Abhartach" imgUrl={abhartach.src}/>
-                    <AnimalPreviewComponent name="Donn Cuailnge" imgUrl={donn_cuailnge.src}/>
+                    <AnimalPreviewComponent name="Donn_Cuailnge" imgUrl={donn_cuailnge.src}/>
                     <AnimalPreviewComponent name="Oillipheist" imgUrl={oillipheist.src}/>
                 </main>
             </>
