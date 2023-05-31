@@ -1,11 +1,9 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
 import Icon from '@/public/images/favicon.ico'
 import monki from '@/public/images/animals/delete_me.jpg'
-import BackgroundPattern from '@/public/images/keltic_pattern.svg'
 
 const inter = Inter({ subsets: ['latin'] })
 
