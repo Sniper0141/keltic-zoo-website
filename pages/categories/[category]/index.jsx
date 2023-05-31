@@ -41,7 +41,7 @@ export const getStaticProps = async (context) => {
 
 export default function Category({category}){
 
-    if(category == "Monsters"){
+    if(category == "Friends"){
         return (
             <>
                 <Head>
@@ -60,7 +60,7 @@ export default function Category({category}){
             </>
         )
     }
-    else if(category == "Friends") {
+    else if(category == "Monsters") {
         return (
             <>
                 <Head>

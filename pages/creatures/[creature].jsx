@@ -14,11 +14,49 @@ import abhartach from '@/public/images/animals/monsters/abhartach.png'
 import donn_cuailnge from '@/public/images/animals/monsters/donn_cuailnge.png'
 import oillipheist from '@/public/images/animals/monsters/oillipheist.jpg'
 
-
-export default function Creature(){
+export const getStaticPaths = async () => {
     
-    const router = useRouter()
-    const { creature } = router.query
+    return{
+        paths: [
+            {
+                params: {creature: "Fairy"}
+            },
+            {
+                params: {creature: "Glas_Gaibhnenn"}
+            },
+            {
+                params: {creature: "Puca"}
+            },
+            {
+                params: {creature: "Leprechaun"}
+            },
+            {
+                params: {creature: "Merrow"}
+            },
+            {
+                params: {creature: "Abhartach"}
+            },
+            {
+                params: {creature: "Donn_Cuailnge"}
+            },
+            {
+                params: {creature: "Oillipheist"}
+            },
+        ],
+        fallback: false
+    }
+}
+
+export const getStaticProps = async (context) => {
+    const creature = context.params.creature 
+    return{
+        props: {
+            creature
+        }
+    }
+}
+
+export default function Creature({creature}){
 
     let description;
     let imgSrc;
