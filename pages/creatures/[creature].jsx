@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router'
 import Head from 'next/head'
 
 import Icon from '@/public/images/favicon.ico'

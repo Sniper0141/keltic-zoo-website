@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 import Icon from '@/public/images/favicon.ico'
-import monki from '@/public/images/animals/delete_me.jpg'
 
 import oillipheist from '@/public/images/animals/monsters/oillipheist.jpg'
 
