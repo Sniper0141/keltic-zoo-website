@@ -55,7 +55,7 @@ export default function Privacy(){
                         </p>
                         <br/>
                         <p>
-                            Ich möchte darauf hin weisen, dass die unerlaubte Verwendung von Teilen des Impressums oder des Inhalts dieser Website zu rechtlichen Konsequenzen führen kann.
+                            Ich möchte darauf hinweisen, dass die unerlaubte Verwendung von Teilen des Impressums oder des Inhalts dieser Website zu rechtlichen Konsequenzen führen kann.
                         </p>
                     </div>
                 </div>
