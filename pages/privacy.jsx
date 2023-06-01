@@ -9,9 +9,9 @@ export default function Privacy(){
                 <title>Privacy - Keltic Zoo</title>
                 <link rel="icon" href={Icon.src}/>
             </Head>
-            <main className='bg-cover bg-black px-60 py-20' style={{backgroundColor: '#4f772d'}}>
+            <main className='bg-cover bg-black px-10 md:px-60 py-10 md:py-20' style={{backgroundColor: '#4f772d'}}>
                 <div className="font-serif">
-                    <h1 className="text-5xl text-center">Privacy Policy</h1>
+                    <h1 className="text-5xl md:text-center">Privacy Policy</h1>
                     <br/>
                     <br/>
                     <div className="">

@@ -16,9 +16,9 @@ export default function FooterComponent(){
             </p>
             <br/>
             <div>
-                <Link href="/" className='hover:underline'>Privacy</Link>
+                <Link href="/privacy" className='hover:underline'>Privacy</Link>
                 <text> - </text>
-                <Link href="/" className='hover:underline'>About</Link>
+                <Link href="/about" className='hover:underline'>About</Link>
             </div>
         </footer>
     )
