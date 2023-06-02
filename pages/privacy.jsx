@@ -16,17 +16,17 @@ export default function Privacy(){
                     <br/>
                     <div className="">
                         <p className=''>
-                            <b>Verantwortlich für den Inhalt dieser Website: </b><br/>
-                            Said Simokovic <br/>
-                            Neubrunnenstrasse 33 <br/>
-                            8302 Kloten <br/>
-                            Schweiz 
+                            <b>Responsible for the content of this site: </b><br/>
+                            Sniper0141 <br/>
+                            Kelticstreet 1 <br/>
+                            3GJC Antananarivo <br/>
+                            Madagascar 
                         </p>
                         <br/>
                         <p>
-                            <b>Kontakt: </b><br/>
-                            Telefon: +41 76 343 03 07 <br/>
-                            E-Mail: said.simokovic@icloud.com 
+                            <b>Contact: </b><br/>
+                            Phone: +69 69 420 69 69 <br/>
+                            E-Mail: peeper.pooper@veryreal-emailaddress.com 
                         </p>
                         <br/>
                         <p>
@@ -38,23 +38,23 @@ export default function Privacy(){
                         </p>
                         <br/>
                         <p>
-                            <b>Haftungshinweis: </b><br/>
-                            Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. <br/>
-                            Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+                            <b>Disclaimer: </b><br/>
+                            Despite careful content control, we assume no liability for the content of external links. <br/>
+                            The operators of the linked pages are solely responsible for their content.
                         </p>
                         <br/>
                         <p>
-                            <b>Urheberrecht: </b><br/>
-                            Die durch den Betreiber dieser Website erstellten Inhalte und Werke auf diesen Seiten unterliegen dem Schweizer Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des Betreibers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+                            <b>Copy Right: </b><br/>
+                            The content and works created by the operator of this website on these pages are subject to Swiss copyright law. <br/>Reproduction, editing, distribution, and any kind of utilization beyond the limits of copyright require the written consent of the operator. Downloads and copies of this page are only permitted for private, non-commercial use.
                         </p>
                         <br/>
                         <p>
-                            <b>Umsatzsteuer-Identifikationsnummer:</b> <br/>
-                            Gemäß § 19 UStG wird keine Umsatzsteuer erhoben.
+                            <b>VAT number:</b> <br/>
+                            In accordance with § 19 UStG, no sales tax is levied.
                         </p>
                         <br/>
                         <p>
-                            Ich möchte darauf hinweisen, dass die unerlaubte Verwendung von Teilen des Impressums oder des Inhalts dieser Website zu rechtlichen Konsequenzen führen kann.
+                            I would like to point out that the unauthorized use of parts of the imprint or content of this website may result in legal consequences.
                         </p>
                     </div>
                 </div>
