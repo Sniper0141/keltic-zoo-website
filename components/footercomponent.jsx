@@ -15,9 +15,9 @@ export default function FooterComponent(){
                 <strong>©</strong> All rights reserved by <a className="underline" href="https://github.com/Sniper0141">Sniper0141</a> on Github.
             </p>
             <br/>
-            <div>
+            <div className='flex mx-auto'>
                 <Link href="/privacy" className='hover:underline'>Privacy</Link>
-                <text> - </text>
+                <div className='mx-1'> - </div>
                 <Link href="/about" className='hover:underline'>About</Link>
             </div>
         </footer>
