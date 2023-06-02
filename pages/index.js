@@ -41,7 +41,7 @@ export default function Home() {
             <div className='flex flex-col gap-8 md:flex-row'>
               <div className='w-fit rounded-3xl border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
                 <div className='w-fit h-fit transition-transform ease-out duration-700 hover:scale-105'>
-                  <img src={leprechaun.src} width="100%" height={'1082'}/>
+                  <img src={leprechaun.src} alt='leprechaun' height={'1082'}/>
                 </div>  
               </div>
               <div style={{color: '#132a13'}}>

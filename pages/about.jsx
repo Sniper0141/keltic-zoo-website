@@ -30,7 +30,7 @@ export default function About(){
                         </p>
                         <div className='w-5 h-5'></div>
                         <div className='w-full md:w-1/2 h-fit rounded-2xl overflow-hidden'>
-                            <img src={merrow.src} width="100%"/>
+                            <img src={merrow.src} alt='merrow'/>
                         </div>
                     </div>
                 </div>

@@ -117,7 +117,7 @@ export default function Creature({creature}){
                     <div className='h-5 w-5'/>
                     <div className='p-8 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
                         <div className='w-full rounded-2xl border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
-                            <img className='w-full' src={imgSrc}/>
+                            <img className='w-full' src={imgSrc} alt={creature}/>
                         </div>
                     </div>
                     <div className='h-5 w-5'/>
