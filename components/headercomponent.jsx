@@ -13,10 +13,10 @@ export default function HeaderComponent(){
                         </Link>
                     </div>
                     <div className="w-1/2">
-                        <nav className="flex items-end sm:justify-end flex-col md:flex-row gap-1 md:gap-8 mt-2 md:mt-8 mr-2 md:mr-8">
+                        <nav className="flex items-end sm:justify-end flex-col md:flex-row gap-2 md:gap-8 mt-2 md:mt-8 mr-2 md:mr-8">
                             <Link href="/" className="hidden lg:block w-fit bg-black border-black rounded-lg border-2 font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Home</Link>
-                            <Link href="/categories/Monsters" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Monsters</Link>
-                            <Link href="/categories/Friends" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Friends</Link>
+                            <Link href="/categories/Monsters" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-xl sm:text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Monsters</Link>
+                            <Link href="/categories/Friends" className="w-fit bg-black border-black rounded-lg border-2  font-bold text-white text-xl sm:text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Friends</Link>
                             <Link href="/about" className="hidden xl:block w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">About</Link>
                             <Link href="/privacy" className="hidden xl:block w-fit border-black rounded-lg border-2 font-bold text-2xl pb-1 px-4 hover:transition-transform duration-500 ease-out md:hover:scale-105">Privacy</Link>
                         </nav>

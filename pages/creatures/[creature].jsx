@@ -110,7 +110,7 @@ export default function Creature({creature}){
                 <link rel="icon" href={Icon.src}/>
             </Head>
             <main>
-                <div className='bg-cover bg-black px-80 py-20' style={{backgroundImage: 'url(../images/celtic_pattern_animal_page.png)'}}>
+                <div className='bg-contain  bg-black px-10 md:px-80 py-3 md:py-20' style={{backgroundImage: 'url(../images/celtic_pattern_animal_page.png)'}}>
                     <div className='p-5 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
                         <h1 className='w-fit p-5 mx-auto rounded-2xl border-black border-4 text-center text-6xl font-serif' style={{backgroundColor: '#ecf39e'}}>{displayName}</h1>
                     </div>
@@ -124,7 +124,7 @@ export default function Creature({creature}){
                     <div className='p-8 rounded-3xl border-black border-4 text-center' style={{backgroundColor: '#4f772d'}}>
                         <h2 className='text-5xl'>Description</h2>
                         <br/>
-                        <p className='text-3xl'>{description}</p>
+                        <p className='text-xl sm:text-2xl md:text-3xl'>{description}</p>
                     </div>
                 </div>
             </main>

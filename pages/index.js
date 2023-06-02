@@ -2,10 +2,13 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 
+import CategoryPreviewComponent from '@/components/categorypreviewcomponent'
+
 import Icon from '@/public/images/favicon.ico'
 
 import leprechaun from '@/public/images/animals/friends/leprechaun.jpg'
 import oillipheist from '@/public/images/animals/monsters/oillipheist.jpg'
+import glas_gaibhenn from '@/public/images/animals/friends/glas_gaibhnenn.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,27 +28,17 @@ export default function Home() {
           <div className='h-fit p-2 pt-5 md:p-10 mb-14 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
             <h2 className='mb-5 md:mb-10 text-5xl text-center'><strong>See our animals</strong></h2>
             <div className='flex justify-around flex-col md:flex-row'>
-              <Link href="/categories/Monsters">
-                <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg'>
-                  <div className='rounded-3xl w-fit border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
-                    <img src={oillipheist.src}/>
-                  </div>
-                  <h3 className='m-4 text-4xl text-center'><strong>Monsters</strong></h3>
-                </div>
-              </Link>
+
+              <CategoryPreviewComponent categoryName="Monsters" imgUrl={oillipheist.src}/>
+              
               <div className='w-5 h-5'/>
-              <Link href="/categories/Friends">
-                <div className='w-fit h-fit p-10 rounded-3xl hover:shadow-black/40 shadow-lg '>
-                  <div className='rounded-3xl w-fit border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
-                    <img src={leprechaun.src}/>
-                  </div>
-                  <h3 className='m-4 text-4xl text-center'><strong>Friendly Creatures</strong></h3>
-                </div>
-              </Link>
+
+              <CategoryPreviewComponent categoryName="Friends" imgUrl={glas_gaibhenn.src}/>
+
             </div>
           </div>
           <div className='h-fit p-10 rounded-3xl border-black border-4' style={{backgroundColor: '#4f772d'}}>
-            <h2 className='mb-10 text-center text-5xl text-black'><strong>Animal of the year</strong></h2>
+            <h2 className='mb-10 text-center text-5xl text-black'><strong>Creature of the Year</strong></h2>
             <div className='flex flex-col gap-8 md:flex-row'>
               <div className='w-fit rounded-3xl border-4 overflow-hidden' style={{borderColor: '#132a13'}}>
                 <div className='w-fit h-fit transition-transform ease-out duration-700 hover:scale-105'>
