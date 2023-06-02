@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import Icon from '@/public/images/favicon.ico'
 
-import oillipheist from '@/public/images/animals/monsters/oillipheist.jpg'
+import merrow from '@/public/images/animals/friends/merrow.png'
 
 export default function About(){
     return(
@@ -11,13 +11,13 @@ export default function About(){
                 <title>About - Keltic Zoo</title>
                 <link rel="icon" href={Icon.src}/>
             </Head>
-            <main className='bg-cover bg-black px-60 py-20' style={{backgroundColor: '#4f772d'}}>
+            <main className='bg-cover bg-black px-10 md:px-60 py-5 md:py-20' style={{backgroundColor: '#4f772d'}}>
                 <div className="font-serif">
                     <h1 className="text-5xl text-center">Our History</h1>
                     <br/>
                     <br/>
-                    <div className="flex justify-center">
-                        <p className='w-1/2'>
+                    <div className="w-full flex flex-col-reverse md:flex-row justify-center">
+                        <p className='w-full md:w-1/2'>
                             Welcome to the Keltic Zoo, where the mystical creatures of keltic mythology come to life! Immerse yourself in a world of ancient legends, where majestic beings and mythical creatures dwell. Our zoo is a unique haven, carefully designed to preserve and showcase the captivating creatures that have fascinated and inspired people for centuries. <br/>
                             <br/>
                             At the Keltic Zoo, we believe in the power of storytelling and the enchantment it brings. Our mission is to educate, entertain, and create an unforgettable experience for visitors of all ages, as we delve into the rich tapestry of keltic mythology. We strive to promote conservation, appreciation, and understanding of these magical beings, fostering a sense of wonder and respect for the natural world. <br/>
@@ -29,8 +29,8 @@ export default function About(){
                             Join us at the Keltic Zoo, and let your spirit soar as you witness the wonders of the keltic world come to life!
                         </p>
                         <div className='w-5 h-5'></div>
-                        <div className='w-1/2 h-fit rounded-2xl overflow-hidden'>
-                            <img src={oillipheist.src} width="100%"/>
+                        <div className='w-full md:w-1/2 h-fit rounded-2xl overflow-hidden'>
+                            <img src={merrow.src} width="100%"/>
                         </div>
                     </div>
                 </div>
