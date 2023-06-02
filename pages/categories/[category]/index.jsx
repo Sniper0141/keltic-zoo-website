@@ -46,8 +46,9 @@ export default function Category({category}){
                     <title>{category} - Keltic Zoo</title>
                     <link rel="icon" href={Icon.src}/>
                 </Head>
-                <main className='flex flex-col items-center bg-black bg-contain bg-repeat' style={{backgroundImage: 'url(../images/keltic_pattern.svg)'}}>
-                    <h2 className='w-fit my-10 md:m-20 p-5 border-4 border-black rounded-2xl text-6xl font-serif' style={{backgroundColor: '#ecf39e'}}>Friendly Creatures</h2>
+                <main className='pb-5 flex flex-col items-center bg-black bg-contain bg-repeat' style={{backgroundImage: 'url(../images/keltic_pattern.svg)'}}>
+                    <h2 className='w-fit m-10 md:m-20 p-5 border-4 border-black rounded-2xl text-6xl text-center font-serif' style={{backgroundColor: '#ecf39e'}}>Friendly Creatures</h2>
+
                     <AnimalPreviewComponent name="Fairy" imgUrl={fairy.src}/>
                     <AnimalPreviewComponent name="Glas_Gaibhnenn" imgUrl={glas_gaibhnenn.src}/>
                     <AnimalPreviewComponent name="Leprechaun" imgUrl={leprechaun.src}/>
@@ -64,9 +65,8 @@ export default function Category({category}){
                     <title>{category} - Keltic Zoo</title>
                     <link rel="icon" href={Icon.src}/>
                 </Head>
-                <main className='flex flex-col items-center bg-black bg-contain bg-repeat' style={{backgroundImage: 'url(../images/keltic_pattern.svg)'}}>
-                    <div className='select-none text-transparent h-0 w-0'/>
-                    <h2 className='w-fit m-10 p-5 border-4 border-black rounded-2xl text-6xl font-serif' style={{backgroundColor: '#ecf39e'}}>Monsters</h2>
+                <main className='pb-7 flex flex-col items-center bg-black bg-contain bg-repeat' style={{backgroundImage: 'url(../images/keltic_pattern.svg)'}}>
+                    <h2 className='w-fit m-10 p-5 border-4 border-black rounded-2xl text-6xl text-center font-serif' style={{backgroundColor: '#ecf39e'}}>Monsters</h2>
                     <AnimalPreviewComponent name="Abhartach" imgUrl={abhartach.src}/>
                     <AnimalPreviewComponent name="Donn_Cuailnge" imgUrl={donn_cuailnge.src}/>
                     <AnimalPreviewComponent name="Oillipheist" imgUrl={oillipheist.src}/>
